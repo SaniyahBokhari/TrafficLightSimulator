@@ -196,7 +196,7 @@ class TrafficLight:
 def main():
     colors_list = ["red","yellow","green"]
     times_colors_on_dict = {"red":4,"yellow":2,"green":4}
-    TrafficLight(colors_list, times_colors_on_dict ) 
+    TrafficLight(colors_list, times_colors_on_dict) 
 
     
 if __name__ == "__main__":
