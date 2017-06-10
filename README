@@ -1,0 +1,33 @@
+_____________________________________
+
+TRAFFIC LIGHT SIMULATOR APPLICATION 
+
+_____________________________________
+
+""""""""""
+SIMULATOR
+""""""""""
+
+Curses were used to display the traffic light simulator using ASCII art.
+
+
+"""""""""""""""""""""""""""""""""""""""""
+To run program:
+"""""""""""""""""""""""""""""""""""""""""
+
+python trafficlight.py
+
+
+""""""
+NOTES
+""""""
+
+1) This is a elementary traffic light simulator. 
+   Curses were used to help display and simulate the traffic light.
+
+2) If user's terminal's size is small and wants to print the traffic light, 
+   the terminal will error out.
+
+3) The program will only quit if user enters Control-C
+
+4) After entering Control-C the program will quit at the end of the current cycle.
