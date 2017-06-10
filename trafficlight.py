@@ -145,7 +145,6 @@ class controlC_catcher:
 Class to display and simulate traffic light
 """
 class TrafficLight:
-    times_dict={}
     def __init__(self, colors_list, times_dict):
         self.colors_list = colors_list
         self.times_dict = times_dict
@@ -195,7 +194,9 @@ class TrafficLight:
 
 
 def main():
-    TrafficLight(["red","yellow","green"],{"red":4,"yellow":2,"green":4}) 
+    colors_list = ["red","yellow","green"]
+    times_colors_on_dict = {"red":4,"yellow":2,"green":4}
+    TrafficLight(colors_list, times_colors_on_dict ) 
 
     
 if __name__ == "__main__":
